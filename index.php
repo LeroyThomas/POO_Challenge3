@@ -11,7 +11,7 @@ require_once 'PedestrianWay.php';
 
 $bicycle = new Bicycle('blue', 1);
 $totoSkate = new Skate("green", 0,4);
-$car = new Car('green', 4, 'electric');
+$car = new Car('green', 4, 'electric', true);
 $totoTruck = new Truck('red', 1,'fuel',20);
 
 echo $bicycle->forward();
